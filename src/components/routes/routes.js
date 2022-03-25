@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react'; 
 import { Route, Link, BrowserRouter as Router } from 'react-router-dom'  
+import Home from '../../Pages/Home/Home';
  
  
 // import ClipLoader from "react-spinners/ClipLoader";
@@ -17,7 +18,7 @@ const routerSwitch = (authStatus, isUserLoggedIn, isAdminLoggedIn,isStoreLoggedI
 {
   return(
       <>
-        <Route exact path="/" component={Login} />  
+        <Route exact path="/" component={Home} />  
 
       </>
   )
@@ -40,7 +41,7 @@ const PrivateRoute = ({component: Component, authStatus, ...rest}) => {
 
 const Routes = props => { 
     return  ( 
-            routerSwitch(authStatus)  
+            routerSwitch()  
     );
 };
  

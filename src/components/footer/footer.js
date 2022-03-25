@@ -10,7 +10,7 @@
           </div>
 
           <div class="col-md-3 col-xs-6">
-            <div class="footer" style="padding-top: 20px;">
+            <div class="footer" style={{paddingTop:20}}>
               <h3 class="footer-title">About</h3>
               <hr class="footer-underline"/>
               <ul class="footer-links footer-links-height">
@@ -24,7 +24,7 @@
           <div class="clearfix visible-xs"></div>
 
           <div class="col-md-3 col-xs-6">
-            <div class="footer" style="padding-top: 20px;">
+            <div class="footer" style={{paddingTop:20}}>
               <h3 class="footer-title">Support</h3>
               <hr class="footer-underline"/>
               <ul class="footer-links footer-links-height">
@@ -36,15 +36,15 @@
           </div>
 
           <div class="col-md-3 col-xs-6">
-            <div class="footer" style="padding-top: 20px;">
+            <div class="footer" style={{paddingTop:20}}>
               <h3 class="footer-title">Brand</h3>
               <hr class="footer-underline"/>
               <ul class="footer-links footer-links-height">
                 <li><a href="#">Customer Service</a></li>
                 <li><a href="#">Subscription</a></li>
                 <li><a href=""><img src="img/images/facebook.svg" alt="" /></a>
-                <a href=""><img src="img/images/instagram.svg" alt="" style="padding-left:10px"/></a>
-                <a href=""><img src="img/images/twitter.svg" alt="" style="padding-left:10px"/></a>
+                <a href=""><img src="img/images/instagram.svg" alt="" style={{paddingLeft:10}}/></a>
+                <a href=""><img src="img/images/twitter.svg" alt="" style={{paddingLeft:10}}/></a>
                 </li>
                 </ul>
             </div>
